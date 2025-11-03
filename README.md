@@ -12,7 +12,7 @@ Build a **stateless web microservice** that streams and narrates logs in real ti
 The app should creatively blend observability with entertainment, making logs both useful and relaxing.
 
 > These are concept ideas and starting points.  
-> Your team can build it however you want — tech stack, visuals, AI model, or music style are fully open.
+> Your team can build it however you want: tech stack, visuals, AI model, or music style are fully open.
 
 ---
 
@@ -75,9 +75,30 @@ The app should creatively blend observability with entertainment, making logs bo
 
 ## Example Architecture
 
+```
 Log Source (CloudWatch / Loki / Mock)
 => Stream Processor (Lambda / API)
 => AI Narrator / TTS
 => WebSocket / REST
 => Frontend (React / Svelte / Tone.js)
 => Audio + Visualization Player
+```
+
+
+---
+
+## Deliverables
+
+- Public GitHub repository containing:
+  - Source code (frontend + backend)
+  - IaC and CI/CD configuration
+  - Documentation (setup + how to stream)
+  - Demo or hosted app link  
+- Optional: Twitch or YouTube link showing the “Lofi Log Radio”
+
+---
+
+> **Note**  
+> The idea is intentionally playful and open-ended.  
+> You can make it realistic for observability, artistic for entertainment, or both.  
+> The main goal is to learn, collaborate, and have fun turning logs into music.
